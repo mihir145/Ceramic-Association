@@ -1,0 +1,14 @@
+.main-container {
+  display: flex;
+}
+
+.left-panel {
+  width: 20%;
+  height: 100vh;
+  border: 1px solid black;
+}
+.right-panel {
+  border: 1px solid black;
+  width: 80%;
+  height: 100vh;
+}

@@ -1,0 +1,72 @@
+.slider-box {
+  width: 100%;
+  max-height: 90vh;
+  position: relative;
+  overflow: hidden;
+}
+
+#slider {
+  width: 100%;
+  display: inline-flex;
+  transition: 0.7s;
+}
+
+#slider img {
+  width: 100%;
+}
+
+.indicators {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+}
+
+.indicators span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.active {
+  background: #ffff !important;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://www.thespruce.com/thmb/DTM1w0H939t2APFzVwK3dwjyi70=/1333x1000/smart/filters:no_upscale()/porcelain-tile-vs-ceramic-tile-1822583_hero-83338b9dbf96484fbf81538ea0bbe2df.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}

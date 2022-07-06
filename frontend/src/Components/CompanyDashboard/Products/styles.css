@@ -1,0 +1,105 @@
+.upper-section {
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 10px;
+  margin-left: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgb(205, 205, 205);
+}
+
+.lower-section {
+  margin-top: 10px;
+  padding: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgb(205, 205, 205);
+}
+
+.lower-section form .edit-btn {
+  background-color: #bd00ff;
+  color: #fff;
+  font-family: "Poppins", cursive;
+  padding: 10px;
+  font-size: 13px;
+  cursor: pointer;
+  box-shadow: 0px 7px 30px -7px #bd00ff;
+  transition: 0.2s;
+}
+
+.lower-section form .cancle-btn {
+  background-color: #ff2525;
+  color: #fff;
+  font-family: "Poppins", cursive;
+  padding: 10px;
+  font-size: 13px;
+  cursor: pointer;
+  box-shadow: 0px 7px 30px -7px #ff2525;
+  transition: 0.2s;
+  margin-left: 30px;
+}
+.lower-section form .cancle-btn:hover {
+  box-shadow: 0px 7px 30px -2px #ff2525;
+}
+
+.lower-section form .edit-btn:hover {
+  box-shadow: 0px 7px 60px -2px #bd00ff;
+}
+
+.lower-section form {
+  width: 100%;
+}
+
+.lower-section form .input-group {
+  display: flex;
+}
+.lower-section form .address {
+  width: 100%;
+}
+
+.lower-section form input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #bd00ff;
+  width: 500px;
+  font-size: 13px;
+}
+
+.lower-section form .input-box span {
+  font-size: 13px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.lower-section form .input-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.lower-section form textarea {
+  border: none;
+  outline: none;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  border-bottom: 1px solid #bd00ff;
+}
+.lower-section form .submit-btn {
+  box-shadow: 0px 7px 30px -2px #bd00ff;
+  background-color: #bd00ff;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.lower-section form .submit-btn:hover {
+  box-shadow: 0px 7px 40px 2px #bd00ff;
+}
+
+.lower-section form input::placeholder {
+  color: black;
+}

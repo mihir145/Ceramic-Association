@@ -1,0 +1,42 @@
+.middle-bar {
+  padding: 30px;
+  overflow: auto;
+}
+
+.table {
+  border: 1px solid #ddd;
+  padding: 8px;
+  width: 100%;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #121212;
+  color: white;
+}
+
+.btn-primary,
+.btn-danger {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.btn-primary {
+  background: #04aa6d;
+}
+
+.btn-danger {
+  background: #ff0000;
+}

@@ -1,0 +1,30 @@
+.companies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.companies-container .company-container {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px rgb(204, 204, 204);
+}
+
+.companies-container .company-container img {
+  width: 80%;
+  height: 80%;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+
+.companies-container .company-container a {
+  text-decoration: none;
+  color: black;
+}
+.companies-container .company-container a:hover {
+  color: #bd00ff;
+}

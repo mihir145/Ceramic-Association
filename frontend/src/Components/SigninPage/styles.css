@@ -1,0 +1,177 @@
+.main-box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 95vh;
+}
+
+.main-box .left,
+.right {
+  width: 50%;
+}
+
+.main-box .right img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-box .left {
+  padding: 50px 0px 0px 100px;
+  margin-top: 20px;
+}
+
+.main-box .left h1 {
+  font-family: "Roboto", sans-serif;
+  color: #6c7c83;
+  font-size: 38px;
+}
+
+.main-box .left .profiles {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.main-box .left .profiles .company,
+.user {
+  height: 100px;
+  max-width: 300px;
+}
+
+.main-box .left .profiles .company h2,
+.user h2 {
+  font-family: "Comfortaa", cursive;
+  font-weight: bolder;
+  color: #37474f;
+  font-size: 28px;
+}
+
+.main-box .left .profiles .company p,
+.user p {
+  font-family: "Comfortaa", cursive;
+  color: #738f93;
+  font-size: 16px;
+  margin-bottom: 28px;
+}
+
+.main-box .left .profiles .company a,
+.user a {
+  border: none;
+  background: none;
+  padding: 14px;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: "Comfortaa", cursive;
+  border: 3px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.main-box .left .profiles .company a {
+  color: #fff;
+  background: #bd00ff;
+  box-shadow: 0px 7px 30px -5px #bd00ff;
+}
+
+.main-box .left .profiles .user a {
+  background: #fff;
+  color: #bd00ff;
+  box-shadow: 0px 0px 8px #fff;
+  border: 1px solid #bd00ff;
+}
+
+.main-box .left .profiles .company {
+  margin-right: 30px;
+}
+
+.form-container {
+  box-shadow: 0px 4px 40px 18px rgba(194, 194, 194, 0.25);
+  /* padding: 10px; */
+  background: #fff;
+  width: 1000px;
+  margin: 50px auto;
+  display: flex;
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px; */
+  font-family: "Comfortaa", cursive;
+  text-align: center;
+}
+
+.form-container form {
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  width: 500px;
+}
+
+.form-container textarea {
+  border: none;
+  width: 90%;
+  height: 30px;
+  padding: 4px;
+  outline: none;
+  border-bottom: 1px solid #bd00ff;
+  font-family: "Poppins", cursive;
+}
+
+.form-container input {
+  border: none;
+  width: 90%;
+  height: 30px;
+  padding: 8px;
+  outline: none;
+  border-bottom: 1px solid #bd00ff;
+  font-family: "Poppins", cursive;
+}
+
+::placeholder {
+  color: #37474f;
+  font-family: "Poppins", cursive;
+}
+
+.form-container input:focus ::placeholder {
+  color: #bd00ff;
+}
+
+.form-container button {
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-family: "Poppins";
+  font-style: normal;
+  padding: 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  background: #bd00ff;
+  box-shadow: 0px 7px 50px -7px #bd00ff;
+  border-radius: 5px;
+}
+
+.form-container select {
+  border: none;
+  width: 90%;
+  padding: 4px;
+  outline: none;
+  border-bottom: 1px solid #bd00ff;
+}
+
+.form-container .menu {
+  display: flex;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.form-container a {
+  text-align: left;
+  font-size: 13px;
+  color: #bd00ff;
+  text-decoration: none;
+}
+
+.form-container .right-side {
+  width: 500px;
+  background: linear-gradient(180deg, #bd00ff 0%, #d765ff 100%);
+}
+
+.form-container .warning-message {
+  width: 100%;
+  height: 30px;
+}

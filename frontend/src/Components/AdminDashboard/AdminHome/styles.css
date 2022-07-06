@@ -1,0 +1,19 @@
+.top-bar {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  background: #fff;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Poppins", cursive;
+  border-radius: 10px;
+}
+
+.middle-bar {
+  margin-top: 30px;
+  background: #fff;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  height: 70vh;
+}
